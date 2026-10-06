@@ -1,0 +1,24 @@
+# Laravel Backend
+atm-backend/.env
+atm-backend/.env.*
+!atm-backend/.env.example
+atm-backend/vendor/
+
+# Laravel cache/log
+atm-backend/storage/*.key
+atm-backend/storage/logs/
+atm-backend/storage/framework/cache/
+atm-backend/storage/framework/sessions/
+atm-backend/storage/framework/views/
+
+# Vue Frontend
+atm-frontend/node_modules/
+atm-frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
